@@ -27,14 +27,21 @@ body {
 }
 
 .card-container {
-    background-color: bisque;
     display: flex;
-    max-width: 80vw;
+    justify-content: center;
+    max-width: 900px;
+    width: 90%;
     color: #fff;
+}
+
+.card-container > * {
+    padding: 3rem;
+    flex-basis: 100%;
 }
 
 .card-sedans {
     background-color: var(--bright-orange);
+    border-radius: 10px 0 0 10px;
 }
 
 .card-suvs {
@@ -43,28 +50,51 @@ body {
 
 .card-luxury {
     background-color: var(--Very-dark-cyan);
+    border-radius: 0 10px 10px 0;
 }
 
 .header {
-    font-family: 'Big Shoulders Display', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 2rem;
-    margin-top: 2rem
+    margin-top: 2rem;
+    text-transform: uppercase;
 }
 
 .description {
     margin-top: 2rem;
+    line-height: 1.5rem;
+    color: var(--Transparent-white);
 }
 
 .btn {
-    padding: 1.4rem;
-    max-width: 12rem;
+    padding: 1rem;
+    max-width: 10rem;
     width: 80%;
-    background-color: aquamarine;
+    background-color: #fff;
     margin-top: 5rem;
     border-radius: 30px;
     text-align: center;
+    font-weight: bold;
 }
 
+.btn.sedans {
+    color: var(--bright-orange);
+}
+
+.btn.suvs {
+    color: var(--dark-cian);
+}
+
+.btn.luxury {
+    color: var(--Very-dark-cyan);
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
 
 .attribution {
     font-size: 11px; text-align: center;
