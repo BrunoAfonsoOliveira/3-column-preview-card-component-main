@@ -117,7 +117,7 @@ body {
     }
 
     .card-container > * {
-        min-height: auto;
+        min-height: 430px;
     }
 
     .card-sedans {
