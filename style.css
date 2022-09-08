@@ -106,9 +106,14 @@ body {
 }
 
 @media (max-width: 850px) {
+    body {
+        justify-content: flex-start;
+    }
+
     .card-container {
         flex-direction: column;
         max-width: 350px;
+        margin-top: 2rem;
     }
 
     .card-container > * {
