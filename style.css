@@ -37,7 +37,7 @@ body {
 .card-container > * {
     padding: 3rem;
     flex-basis: 100%;
-    min-height: 480px;
+    min-height: 500px;
 }
 
 .card-sedans {
@@ -55,7 +55,6 @@ body {
 }
 
 .header {
-    font-family: 'Big Shoulders Display', cursive;
     font-size: 2rem;
     margin-top: 2rem;
     text-transform: uppercase;
@@ -63,8 +62,9 @@ body {
 
 .description {
     margin-top: 2rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     color: var(--Transparent-white);
+    font-weight: bold;
 }
 
 .btn {
@@ -94,7 +94,8 @@ body {
     cursor: pointer;
     color: #fff;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
+    transition: all .25s;
 }
 
 .attribution {
