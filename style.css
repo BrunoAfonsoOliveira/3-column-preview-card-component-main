@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     max-width: 900px;
-    width: 90%;
+    width: 85%;
     color: #fff;
 }
 
@@ -112,7 +112,7 @@ body {
 
     .card-container {
         flex-direction: column;
-        max-width: 350px;
+        max-width: 300px;
         margin-top: 2rem;
     }
 
