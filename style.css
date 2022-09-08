@@ -37,6 +37,7 @@ body {
 .card-container > * {
     padding: 3rem;
     flex-basis: 100%;
+    min-height: 480px;
 }
 
 .card-sedans {
@@ -101,4 +102,27 @@ body {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 850px) {
+    .card-container {
+        flex-direction: column;
+        max-width: 350px;
+    }
+
+    .card-container > * {
+        min-height: auto;
+    }
+
+    .card-sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .btn {
+        margin-top: 2rem;
+    }
 }
